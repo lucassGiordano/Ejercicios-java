@@ -1,4 +1,4 @@
-package a;
+
 
 import java.util.Scanner;
 public class PrimerosEjercicios {
@@ -83,7 +83,7 @@ public class PrimerosEjercicios {
 
 		}
 		case 5:{
-			int a,b;
+			int a,b,resultado;
 			char c;
 			System.out.println("ingresar primer numero");
 			a = leer.nextInt();
@@ -91,6 +91,23 @@ public class PrimerosEjercicios {
 			c = leer.next().charAt(0);
 			System.out.println("ingresar segundo numero");
 			b = leer.nextInt();
+			if(c=='+') {
+				System.out.println((a+b));
+			}else if(c=='-') {
+				System.out.println((a-b));
+			}else if(c=='*') {
+				System.out.println((a*b));
+			}else if(c=='/') {
+				System.out.println((a/b));
+			}else { System.out.println("RESPUESTA INVALIDA"); }
+		}
+		case 6:{
+			String a[]={"hola","como","estas"};
+			//el for each es una forma de recorrer un array sin necesidad 
+			//de utilizar el bucle tradicional
+			for(String palabra:a){
+				System.out.println(palabra+" ");
+			}
 		}
 		}
 		leer.close();
