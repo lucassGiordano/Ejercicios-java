@@ -106,6 +106,7 @@ public class PrimerosEjercicios {
 			//el for each es una forma de recorrer un array sin necesidad 
 			//de utilizar el bucle tradicional
 			for(String palabra:a){
+	// y cada objeto se muestra como "palabra" en este bucle
 				System.out.println(palabra+" ");
 			}
 		}
