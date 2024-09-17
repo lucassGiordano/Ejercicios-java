@@ -8,10 +8,11 @@ public class Ejer19 {
 			System.out.println("introduzca numero positivo para contar las cifras");
 			b=sc.nextInt();	
 		}while(b<0);
-		
-		for(int a=b;b>0;b/=10) {
-			
+		int c=0;
+		for(int a=b;a>0;a/=10) {
+			c++;
 		}
+		System.out.println(c);
 		
 	}
 }
