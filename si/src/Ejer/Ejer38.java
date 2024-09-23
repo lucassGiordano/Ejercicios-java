@@ -4,7 +4,7 @@ public class Ejer38 {
 	public static void main(String[] args) {   
                 Scanner sn = new Scanner(System.in);
                 int nume=0;
-                int mayor=0,menor=0,suma=0,sumNpositivos=0,sumNnegativos=0,media=0;
+                int mayor=0,menor=999999,suma=0,sumNpositivos=0,sumNnegativos=0,media=0;
                 int contador = 0;
                 System.out.println("ingresa los numeros que quieras, se terminara el programa cuando el numero sea exactamente -1");
                 do {
@@ -23,7 +23,7 @@ public class Ejer38 {
                 System.out.println("suma de todos:"+suma);
                 System.out.println("suma positivos"+ sumNpositivos);
                 System.out.println("suma negativos"+ sumNnegativos);
-                System.out.println("media"+(suma/contador));
+                System.out.println("media "+(suma/contador));
 
 
             }
